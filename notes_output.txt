@@ -1,0 +1,114 @@
+ Measure number: 1
+    Note: C#5, Duration: 0.5
+    Note: F#5, Duration: 0.5
+    Note: A-5, Duration: 0.5
+    Note: B5, Duration: 0.5
+    Note: A-5, Duration: 1.0
+    Note: C#5, Duration: 0.5
+    Note: F#5, Duration: 0.5
+  Measure number: 2
+    Note: A-5, Duration: 0.5
+    Note: B5, Duration: 0.5
+    Note: A-5, Duration: 1.0
+    Chord: ['C#4', 'C#5'], Duration: 0.5
+    Note: F#5, Duration: 0.5
+    Note: A-5, Duration: 0.5
+    Note: B5, Duration: 0.25
+    Note: B5, Duration: 0.25
+  Measure number: 3
+    Note: A-5, Duration: 1.0
+    Note: C#5, Duration: 0.5
+    Note: F#5, Duration: 0.5
+    Note: A-5, Duration: 0.5
+    Note: B5, Duration: 0.5
+    Note: A-5, Duration: 1.0
+Part: P1-Staff2
+  Measure number: 1
+    Chord: ['F#2', 'C#3', 'F#3'], Duration: 3.0
+    Chord: ['A2', 'E3', 'A3'], Duration: 1.0
+  Measure number: 2
+    Chord: ['A2', 'E3', 'A3'], Duration: 2.0
+    Chord: ['A-2', 'C#3'], Duration: 2.0
+  Measure number: 3
+    Chord: ['A-2', 'C#3'], Duration: 1.0
+    Chord: ['D2', 'A2', 'D3'], Duration: 3.0
+
+
+Note: C♯5, Frequency: 554.36 Hz, Duration: 1, Type: eighth
+Note: F♯5, Frequency: 739.98 Hz, Duration: 1, Type: eighth
+Note: A♭5, Frequency: 830.60 Hz, Duration: 1, Type: eighth
+Note: B5, Frequency: 987.76 Hz, Duration: 1, Type: eighth
+Note: A♭5, Frequency: 830.60 Hz, Duration: 2, Type: quarter
+Note: C♯5, Frequency: 554.36 Hz, Duration: 1, Type: eighth
+Note: F♯5, Frequency: 739.98 Hz, Duration: 1, Type: eighth
+Note: F♯2, Frequency: 92.50 Hz, Duration: 6, Type: half
+Note: C♯3, Frequency: 138.59 Hz, Duration: 6, Type: half
+Note: F♯3, Frequency: 185.00 Hz, Duration: 6, Type: half
+Note: A2, Frequency: 110.00 Hz, Duration: 2, Type: quarter
+Note: E3, Frequency: 164.81 Hz, Duration: 2, Type: quarter
+Note: A3, Frequency: 220.00 Hz, Duration: 2, Type: quarter
+Note: A♭5, Frequency: 830.60 Hz, Duration: 2, Type: eighth
+Note: B5, Frequency: 987.76 Hz, Duration: 2, Type: eighth
+Note: A♭5, Frequency: 830.60 Hz, Duration: 4, Type: quarter
+Note: C♯4, Frequency: 277.18 Hz, Duration: 2, Type: eighth
+Note: C♯5, Frequency: 554.36 Hz, Duration: 2, Type: eighth
+Note: F♯5, Frequency: 739.98 Hz, Duration: 2, Type: eighth
+Note: A♭5, Frequency: 830.60 Hz, Duration: 2, Type: eighth
+Note: B5, Frequency: 987.76 Hz, Duration: 1, Type: 16th
+Note: B5, Frequency: 987.76 Hz, Duration: 1, Type: 16th
+Note: A2, Frequency: 110.00 Hz, Duration: 8, Type: half
+Note: E3, Frequency: 164.81 Hz, Duration: 8, Type: half
+Note: A3, Frequency: 220.00 Hz, Duration: 8, Type: half
+Note: A♭2, Frequency: 103.83 Hz, Duration: 8, Type: half
+Note: C♯3, Frequency: 138.59 Hz, Duration: 8, Type: half
+Note: A♭5, Frequency: 830.60 Hz, Duration: 2, Type: quarter
+Note: C♯5, Frequency: 554.36 Hz, Duration: 1, Type: eighth
+Note: F♯5, Frequency: 739.98 Hz, Duration: 1, Type: eighth
+Note: A♭5, Frequency: 830.60 Hz, Duration: 1, Type: eighth
+Note: B5, Frequency: 987.76 Hz, Duration: 1, Type: eighth
+Note: A♭5, Frequency: 830.60 Hz, Duration: 2, Type: quarter
+Note: A♭2, Frequency: 103.83 Hz, Duration: 2, Type: quarter
+Note: C♯3, Frequency: 138.59 Hz, Duration: 2, Type: quarter
+Note: D2, Frequency: 73.42 Hz, Duration: 6, Type: half
+Note: A2, Frequency: 110.00 Hz, Duration: 6, Type: half
+Note: D3, Frequency: 146.83 Hz, Duration: 6, Type: half
+
+
+Note: C, Alter: 1, Octave: 5, Duration: 1
+Note: F, Alter: 1, Octave: 5, Duration: 1
+Note: A, Alter: -1, Octave: 5, Duration: 1
+Note: B, Alter: 0, Octave: 5, Duration: 1
+Note: A, Alter: -1, Octave: 5, Duration: 2
+Note: C, Alter: 1, Octave: 5, Duration: 1
+Note: F, Alter: 1, Octave: 5, Duration: 1
+Note: F, Alter: 1, Octave: 2, Duration: 6
+Note: C, Alter: 1, Octave: 3, Duration: 6
+Note: F, Alter: 1, Octave: 3, Duration: 6
+Note: A, Alter: 0, Octave: 2, Duration: 2
+Note: E, Alter: 0, Octave: 3, Duration: 2
+Note: A, Alter: 0, Octave: 3, Duration: 2
+Note: A, Alter: -1, Octave: 5, Duration: 2
+Note: B, Alter: 0, Octave: 5, Duration: 2
+Note: A, Alter: -1, Octave: 5, Duration: 4
+Note: C, Alter: 1, Octave: 4, Duration: 2
+Note: C, Alter: 1, Octave: 5, Duration: 2
+Note: F, Alter: 1, Octave: 5, Duration: 2
+Note: A, Alter: -1, Octave: 5, Duration: 2
+Note: B, Alter: 0, Octave: 5, Duration: 1
+Note: B, Alter: 0, Octave: 5, Duration: 1
+Note: A, Alter: 0, Octave: 2, Duration: 8
+Note: E, Alter: 0, Octave: 3, Duration: 8
+Note: A, Alter: 0, Octave: 3, Duration: 8
+Note: A, Alter: -1, Octave: 2, Duration: 8
+Note: C, Alter: 1, Octave: 3, Duration: 8
+Note: A, Alter: -1, Octave: 5, Duration: 2
+Note: C, Alter: 1, Octave: 5, Duration: 1
+Note: F, Alter: 1, Octave: 5, Duration: 1
+Note: A, Alter: -1, Octave: 5, Duration: 1
+Note: B, Alter: 0, Octave: 5, Duration: 1
+Note: A, Alter: -1, Octave: 5, Duration: 2
+Note: A, Alter: -1, Octave: 2, Duration: 2
+Note: C, Alter: 1, Octave: 3, Duration: 2
+Note: D, Alter: 0, Octave: 2, Duration: 6
+Note: A, Alter: 0, Octave: 2, Duration: 6
+Note: D, Alter: 0, Octave: 3, Duration: 6

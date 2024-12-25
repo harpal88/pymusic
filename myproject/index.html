@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Audio Analysis</h1>
+    <form id="audioForm" enctype="multipart/form-data">
+        <label for="original_file">Original Audio File:</label>
+        <input type="file" id="original_file" name="original_file" required><br><br>
+
+        <label for="user_file">User Audio File:</label>
+        <input type="file" id="user_file" name="user_file" required><br><br>
+
+        <button type="submit">Calculate Accuracy</button>
+    </form>
+
+    <h2>Results</h2>
+    <p id="results"></p>
+
+    <script>
+document.getElementById('audioForm').onsubmit = async function(event) {
+    event.preventDefault();
+
+    let formData = new FormData();
+    formData.append('original_file', document.getElementById('original_file').files[0]);
+    formData.append('user_file', document.getElementById('user_file').files[0]);
+
+    try {
+        let response = await fetch('/calculate', {
+            method: 'POST',
+            body: formData
+        });
+
+        if (!response.ok) {
+            let errorText = await response.text();
+            throw new Error(errorText);
+        }
+
+        let result = await response.json();
+        document.getElementById('results').innerText = 
+            `Pitch Accuracy: ${result.pitch_accuracy}\nTiming Accuracy: ${result.timing_accuracy}`;
+
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('results').innerText = `Error: ${error.message}`;
+    }
+};
+
+    </script>
+</body>
+</html>
